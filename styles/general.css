@@ -1,0 +1,25 @@
+
+
+
+
+body{
+    background-color: black;
+    margin: 0;
+    height:3000px;
+    padding-top: 75px;
+    padding-left: 90px;
+}
+p{
+    color:white;
+    font-family: Roboto, Ariel;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}

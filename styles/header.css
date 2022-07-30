@@ -1,0 +1,278 @@
+.top-bar{
+    background-color: #222222;
+
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0;
+
+    border-top-width: 1px;
+    border-top-color: rgb(78, 78, 78);
+    border-top-style: solid;
+    
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(36, 35, 35);
+    border-bottom-style: solid;
+    z-index: 3;
+ 
+}
+
+.top-left{
+  align-items: center;
+  display:flex;
+}
+
+
+
+.hamburger-menu{
+    margin-top:1px;
+    height: 24px;
+    margin-left:24px;
+    margin-right:24px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    cursor: pointer;
+
+}
+
+.youtube-logo{
+    margin-top:2px;
+    height: 20px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+
+.top-center{
+    flex:1;
+    margin-left: 70px;
+    margin-right:35px;
+    max-width: 500px;
+    
+    display:flex;
+    align-items: center;
+}
+
+
+
+
+.search{
+    
+    
+    height:28px;
+    width:0;
+    flex:1;
+
+
+
+    border:none;
+    color:white;
+    
+    padding-left:5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    background-color: black;
+    
+    border-radius:2px;
+    
+    
+
+
+    box-shadow: 0 0 2px gray;
+    
+}
+.search::placeholder{
+    color: rgb(139, 138, 138);
+    font-size: Roboto,Ariel;
+    font-size: 16px;
+}
+
+.search-icon{
+    height:38px;
+    padding: 0;
+    margin:0;
+    background-color: #222222;
+}
+.search-button{
+    background-color: #222222;
+    border:none;
+    position: relative;
+    cursor: pointer;
+}
+.search-button div{
+    font-size: 12px;;
+    position: absolute;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    right:15px;
+
+    bottom:-50px;
+    opacity: 0;
+
+    pointer-events: none;
+}
+.search-button:hover div{
+    opacity: 1;
+}
+
+
+
+.voice-search-icon{
+    height:38px;
+    border-radius: 52%;
+   
+}
+.voice-button{
+    position: relative;
+    border-width: 0px;
+    cursor: pointer;
+    background-color: #222222;
+}
+.voice-button div{
+    font-size: 12px;;
+    position: absolute;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+    white-space: nowrap;
+    left:-36px;
+
+    bottom:-50px;
+    opacity: 0;
+    transition: opacity .2s;
+    pointer-events: none;
+}
+.voice-button:hover div{
+    opacity: 1;
+}
+
+
+
+
+.top-right{
+    width: 180px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    
+    
+}
+
+.div-pop{
+    position: relative;
+    
+
+}
+
+.div-pop div{
+    font-family: Roboto,Ariel;
+    position: absolute;
+    bottom:-50px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    font-size: 12px;;
+    padding-bottom: 9px;
+    left:-8px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s;
+}
+
+.div-pop:hover div{
+    opacity: 1;
+}
+
+
+
+
+.upload{
+    height:24px;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    cursor: pointer;
+}
+.noti{
+    height:24px;
+    margin-left:  25px;
+
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.noti-div{
+    position: relative;
+
+}
+
+.div-pop2{
+    font-family: Roboto,Ariel;
+    position: absolute;
+    bottom:-50px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 9px;
+    font-size: 12px;;
+    padding-bottom: 9px;
+    left:2px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .2s;
+}
+
+.noti-div:hover .div-pop2{
+    opacity: 1;
+}
+
+
+.noti-count{
+    cursor: pointer;
+    position: absolute;
+   
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    font-family: Roboto, Ariel;
+    font-size: 11px;
+
+    top:-2px;
+    right:-7px;
+
+    background-color: cyan;
+    color:black;
+    border-radius: 8px;
+    height:15px;
+    z-index: 7;
+}
+
+.pfp{
+    margin-left:  25px;
+    height:30px;
+    border-radius:50%;
+
+    cursor: pointer;
+    margin-right: 36px;
+}
