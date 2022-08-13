@@ -1,0 +1,50 @@
+.intrest-menu{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #222222;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+    display: flex;
+    flex-direction: row;
+    
+    position:fixed;
+
+    box-shadow: 1px  1px #4d4c4c;
+    
+    padding-top: 10px;
+    padding-left: 20px;
+    top: 58px;
+    left:70px;
+    right:0px;
+}
+
+.intrest-menu button{
+    font-weight: 500;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    border-radius: 18px;
+    font-family: Roboto, Ariel;
+    padding: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 14px;
+    border:solid;
+    border-width: 1px;
+    border-color: rgb(83, 83, 83);
+    margin-left: 0px;
+    margin-right: 7px;
+    transition: background-color .2s;
+    cursor: pointer;
+}
+
+.intrest-menu :hover button{
+    background-color: rgb(83, 83, 83);
+    
+}
+
+.first-button{
+    color: rgb(61, 60, 60);
+    background-color: white;
+    border: none;
+}

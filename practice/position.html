@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Position Practice</title>
+</head>
+
+<body>
+
+    <style>
+        .d1{
+            height:200px;
+            width:200px;
+            background-color: aquamarine;
+            position: relative;
+        }
+        .d2{
+            height:200px;
+            width:200px;
+            background-color: rgb(255, 127, 212);
+            position: relative;
+        }
+        .header{
+            background-color: black;
+            color:white;
+            position:fixed;
+            left:0px;
+            right:0px;
+        }
+        body{
+            height:3000px;
+            padding-top:40px;
+            padding-left:40px;
+        }
+        .side{
+            background-color: green;
+            color:white;
+            position:fixed;
+            left:0px;
+            bottom:0px;
+            top:85px;
+            width:30px;
+        }
+        .abs{
+            position:absolute;
+            background-color: orange;
+            color:white;
+            left:0px;
+            top:0px;
+            z-index: -1;
+        }
+
+        .abs2{
+            position:absolute;
+            background-color: cyan;
+            color:white;
+            left:10px;
+            top:10px;
+            
+        }
+    </style>
+    <div class="header">Header</div>
+    <div class="side">Side bar</div>
+    <div class="abs">hey yo. Absolute</div>
+    <div class="d1">D 1
+
+        <div class="abs2">X</div>
+
+    </div>
+
+    <div class="d2">D 2</div>
+</body>
+
+
+</html>
